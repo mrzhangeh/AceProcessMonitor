@@ -29,6 +29,10 @@ ACE 进程限制器是一款针对进程（SGuard64.exe、SGuardSvc64.exe）的�
 
 ## 使用方式
 ### 安装依赖
-``pip install pyinstaller psutil``
+```powershell
+pip install pyinstaller psutil
+```
 ### 打包命令
-``pyinstaller -F -w --name "ACE进程限制工具" ACEPro.py``
+```powershell
+pyinstaller -F -w --name "ACE进程限制工具" ACEPro.py
+```
